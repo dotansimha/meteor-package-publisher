@@ -1,0 +1,29 @@
+{
+  "config": {
+    "preExec": "",
+    "postExec": ""
+  },
+  "source": {
+    "type": "bower",
+    "name": "bootstrap-daterangepicker",
+    "version": "1.3.21"
+  },
+  "destination": {
+    "atmospherePackageName": "bootstrap-daterangepicker",
+    "atmosphereOrganizationName": "dangrossman",
+    "summary": "Date range picker component for Bootstrap",
+    "git": "https://github.com/dangrossman/bootstrap-daterangepicker",
+    "documentation": "README.md",
+    "version": "1.3.21",
+    "create": true,
+    "versionsFrom": "METEOR@0.9.0.1",
+    "filesToAdd": [
+      {"name": "daterangepicker.js", "platforms": ["client"]},
+      {"name": "daterangepicker-bs3.css", "platforms": ["client"]}
+    ],
+    "use": [
+      {"name": "jquery@1.11.3_2", "platforms": ["client"]},
+      {"name": "momentjs:moment@2.10.3", "platforms": ["client"]}
+    ]
+  }
+}

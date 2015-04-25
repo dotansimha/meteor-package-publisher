@@ -1,0 +1,17 @@
+Package.describe({
+    name: 'ORGANIZATION_NAME:PACKAGE_NAME',
+    version: 'VERSION',
+    summary: 'SUMMARY_STRING',
+    git: 'GIT_LINK',
+    documentation: DOC_FILENAME
+});
+
+Package.onUse(function (api) {
+    api.versionsFrom('VERSIONS_FROM');
+
+    DEPS_SECTION
+
+    ADD_FILES_SECTION
+
+    EXPORTS_SECTION
+});

@@ -1,0 +1,28 @@
+{
+  "name": "meteor-package-publisher",
+  "version": "0.0.1",
+  "description": "",
+  "main": "meteor-package-publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotansimha/meteor-package-publisher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotansimha/meteor-package-publisher/issues"
+  },
+  "homepage": "https://github.com/dotansimha/meteor-package-publisher",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "exec": "^0.2.0",
+    "fs": "0.0.2",
+    "lodash": "^3.7.0",
+    "minimist": "^1.1.1",
+    "q": "^1.2.0",
+    "rimraf": "^2.3.2"
+  }
+}
