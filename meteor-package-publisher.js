@@ -3,7 +3,7 @@ var fs = require('fs');
 var MeteorPublisher = require('./lib/publisher');
 
 var packageInfoFilename = argv._[0];
-var publisher = new MeteorPublisher();;
+var publisher = new MeteorPublisher();
 
 fs.readFile(packageInfoFilename, 'utf8', function (err, data) {
     if (err) {
